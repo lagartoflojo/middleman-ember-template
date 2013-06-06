@@ -1,10 +1,11 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "rack-contrib"
+gem 'rack-contrib'
 
-gem "middleman", "~><%= Middleman::VERSION %>"
-gem "sprockets-handlebars_template", :require => "sprockets/ember_handlebars_template"
-gem "middleman-livereload"
-gem "ember-source"
-gem "handlebars-source"
-gem "ember-data-source"
+gem 'middleman', '~><%= Middleman::VERSION %>'
+gem 'sprockets-handlebars_template', :require => 'sprockets/ember_handlebars_template'
+gem 'middleman-livereload'
+gem 'ember-source', '~>1.0.0.rc5'
+gem 'handlebars-source', '~>1.0.0.rc4'
+gem 'ember-data-source', '~>0.13'
+gem 'rb-inotify', '~>0.9'

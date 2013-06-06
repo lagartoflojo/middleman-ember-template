@@ -1,29 +1,8 @@
-middleman-ember-template: with Ember.js
+middleman-ember-coffee-foundation: with Ember.js
 =======================================
 
-**Template Layout**
-
-	source/
-		index.html
-		images/
-		stylesheets/
-		javascripts/
-			application.js
-			main.js
-			controllers/  foo_controller.js
-			models/       foo.js
-			routes/  			foo_route.js
-			views/        foo_view.js
-			templates/    foo.handlebars
-	vendor/
-		stylesheets/
-		javascripts/
-			ember-data.js
-			ember.js
-			handlebars.js
-			jquery.js
-
-You may also want to checkout the [Ember.js with Middleman example](https://github.com/GutenYe/example-ember-with-middleman).
+This template includes Ember, Ember Data, Handlebars and Foundation.
+All JavaScripts files use CoffeeScript and CSS files use SCSS.
 
 Usage
 -----
@@ -31,7 +10,7 @@ Usage
 Download or clone into ~/.middleman/ember
 
 ```
-$ git clone git://github.com/rossta/middleman-ember-template.git ~/.middleman/ember
+$ git clone git://github.com/lagartoflojo/middleman-ember-coffee-foundation.git ~/.middleman/ember
 ```
 
 Initialize a new middleman project

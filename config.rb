@@ -67,10 +67,10 @@ configure :build do
   # activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
   # Enable asset hash
-  # activate :asset_hash
+  activate :asset_hash
 
   # Enable cache buster
   # activate :cache_buster
@@ -103,4 +103,5 @@ after_configuration do
   # Allow a local variant override
   ember_path = Pathname.new(File.join("#{root}/vendor/assets/ember"))
   sprockets.prepend_path(ember_path.to_s) if ember_path.exist?
+  sprockets.prepend_path '#{root}/vendor/javascripts'
 end
