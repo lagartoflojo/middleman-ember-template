@@ -10,3 +10,4 @@ gem 'handlebars-source', '~>1.0.0'
 gem 'ember-data-source', '~>0.13'
 gem 'rb-inotify', '~>0.9'
 gem 'therubyracer'
+
