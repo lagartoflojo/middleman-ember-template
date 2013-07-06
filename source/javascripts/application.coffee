@@ -4,6 +4,3 @@
 #= require ember-data
 #= require foundation/index
 #= require ./main
-
-App.initialize()
-
